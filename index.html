@@ -21,7 +21,7 @@
     <!--==================== HEADER ====================-->
     <header class="header" id="header">
       <nav class="nav container">
-        <a href="#" class="nav__logo">Meu Portfólio</a>
+        <a href="#" class="nav__logo"></a>
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list grid">
             <li class="nav__item">
@@ -49,13 +49,27 @@
                 <i class="uil uil-estate nav__icon"></i> Fale comigo
               </a>
             </li>
-          </ul>
-          <i class="uil uil-times nav__close" id="nav-close"></i>
-        </div>
+            <!-- Políticas e Termos de Uso-->
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="uil uil-estate nav__icon"></i> Política de Privacidade
+              </a>
+            </li>
 
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="uil uil-estate nav__icon"></i> Termos de Uso
+              </a>
+            </li>
+
+
+          </ul>
+        </div>
+        
+        
         <div class="nav__btns">
           <!--Theme change button-->
-          <i class="uil uil-moon change-theme" id="theme-button"></i>
+          <i class="uil uil-moon change-theme" id="theme-button"> </i>
           <div class="nav__toggle" id="nav-toggle">
             <i class="uil uil-apps"></i>
           </div>
@@ -124,11 +138,13 @@
               </svg>
             </div>
             <div class="home__data">
-              <h1 class="home__title">Social Media</h1>
+              <h1 class="home__title">Leticia Botellho</h1>            
               <h3 class="home__subtitle">Oi, me chamo Leticia.</h3>
-              <p class="home__description">
-                Seja bem-vindo! Estou animada para compartilhar meu conhecimento e recursos com você.<br> Aproveite sua visita!
+              <p class="home__description" p style="text-align: justify;">
+                <p> Seja bem-vindo(a) ♥ <br>Estou animada para compartilhar meus conhecimentos e recursos com você.<br><br> Aproveite sua visita!</p>
+                
               </p>
+              <br>
               <a href="#contact" class="button button--flex">
                 Contate-me <i class="uil uil-whatsapp button__icon"></i>
               </a>
@@ -138,7 +154,7 @@
           <div class="home_scroll">
             <a href="#about" class="home__scroll-button button--flex">
               <i class="uil uil-mouse-alt home__scroll-mouse"></i>
-              <span class="home__scroll-name">Scroll down</span>
+              <span class="home__scroll-name">Role a página</span>
               <i class="uil uil-arrow-down homw__scroll-arrow"></i>
             </a>
           </div>
@@ -153,11 +169,11 @@
         <div class="about__container container grid">
           <img src="assets/img/about.jpg" alt="" class="about__img" />
 
-          <div class="about__data">
-            <p class="about__description">
-              Sou especialista em mídias sociais, responsável por gerenciar
+          <div class="about__data";">
+            <p class="about__description" p style="text-align: justify;">
+              Sou especialista em mídias sociais, formada em Marketing Digital, responsável por gerenciar
               presenças digitais de marcas e empresas, criar conteúdo atrativo,
-              pmonitorar presenças online e medir o sucesso de campanhas.           
+              monitorar presenças online e medir o sucesso de campanhas.           
             </p>
 
             <div class="about__info">
@@ -513,7 +529,8 @@
                   Loja Piticas XP Cuiabá
                 </p>
                 <a
-                  href="#"
+                  href="https://instagram.com/piticasxp_cuiaba"
+                  target="_blank"
                   class="button button--flex button--small portfolio__button"
                 >
                   Visite
@@ -536,7 +553,8 @@
                   PiticasXP Shopping Continente em São José-SC.
                 </p>
                 <a
-                  href="#"
+                  href="https://instagram.com/piticasxpcontinente"
+                  target="_blank"
                   class="button button--flex button--small portfolio__button"
                 >
                   Visite
@@ -556,10 +574,11 @@
               <div class="portfolio__data">
                 <h3 class="portfolio__title">@piticasxpbalneario</h3>
                 <p class="portfolio__description">
-                  PiticasXP Balneári Camboriú
+                  PiticasXP Balneário Camboriú
                 </p>
                 <a
-                  href="#"
+                  href="https://instagram.com/piticasxpbalneario"
+                  target="_blank"
                   class="button button--flex button--small portfolio__button"
                 >
                   Visite
@@ -582,7 +601,8 @@
                   Rede Chilli Beans em Mato Grosso
                 </p>
                 <a
-                  href="#"
+                  href="https://instagram.com/chillibeansdigorestemt"
+                  target="_blank"
                   class="button button--flex button--small portfolio__button"
                 >
                   Visite
@@ -616,7 +636,7 @@
               </p>
               <a href="#contact" class="button button--flex button--white">
                 Me chame
-                <i class="uil uil-message project__icon button__icon"></i>
+                <i class="uil uil-whatsapp project__icon button__icon"></i>
               </a>
             </div>
 
@@ -677,7 +697,7 @@
 
               <div class="contact__content">
                 <label for="project-contact" class="contact__label"
-                  >Assuno</label
+                  >Assunto</label
                 >
                 <input
                   type="text"
@@ -699,9 +719,8 @@
                 ></textarea>
               </div>
 
-              <div>
-                <a href="#" class="button button--flex">Enviar Mensagem</a>
-                <i class="uil uil-message button__icon"></i>
+              <div>              
+                <a href="#" class="button button--flex">Enviar Mensagem</a>                
               </div>
             </form>
           </div>
@@ -734,7 +753,7 @@
 
           <div class="footer__socials">
             <a
-              href="https://www.facebook.com/rajuahmad007/"
+              href="https://www.facebook.com/letiicia.botelho"
               class="footer__social"
               target="_blank"
               class="footer__social"
