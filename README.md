@@ -2,4 +2,4 @@
 
 adaptação do projeto do "Responsive Portfolio Website Alexa";
 
-Código inspirado em Bedimcode
+Código inspirado em Bedimcode.
