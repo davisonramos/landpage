@@ -1,4 +1,4 @@
-<h1 align="center"> Ladpage Responsivo - By Website Alexa </h1>
+<h1 align="center"> Ladpage Responsivo - Adaptação </h1>
 
 <p align="center">
 Construído a partir do treinamento Rockeatseat <br/>
